@@ -16,18 +16,18 @@ public class Main {
         try {
             ResourceManager resourceManager = ResourceManager.getInstance();
 
-            ExecutorService executorService = Executors.newFixedThreadPool(10);
+            ExecutorService executor = Executors.newFixedThreadPool(10);
 
             for (int i = 1; i <= 10; i++) {
-                executorService.submit(new WorkerTask("Worker" + i, resourceManager));
+                executor.submit(new WorkerTask("Worker" + i, resourceManager));
             }
 
-            executorService.shutdown();
-            if (!executorService.awaitTermination(1, TimeUnit.MINUTES)) {
-                logger.warn("Executor did not terminate in the specified time.");
+            executor.shutdown();
+            if (!executor.awaitTermination(1, TimeUnit.MINUTES)) {
+                logger.warn("Executor did not terminate in expected time");
             }
         } catch (Exception e) {
-            logger.error("An error occurred while running the application", e);
+            logger.error("An error occurred", e);
         }
     }
 }

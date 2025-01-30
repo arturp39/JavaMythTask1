@@ -1,0 +1,511 @@
+2024-11-28 17:08:14.483 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - ResourceManager initialized.
+2024-11-28 17:08:14.489 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-1 is accessing the resource.
+2024-11-28 17:08:15.494 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-1 finished accessing the resource.
+2024-11-28 17:08:15.494 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread-3 is accessing the resource.
+2024-11-28 17:08:16.507 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread-3 finished accessing the resource.
+2024-11-28 17:08:16.507 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread-5 is accessing the resource.
+2024-11-28 17:08:17.516 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread-5 finished accessing the resource.
+2024-11-28 17:08:17.516 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-2 is accessing the resource.
+2024-11-28 17:08:18.522 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-2 finished accessing the resource.
+2024-11-28 17:08:18.522 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-4 is accessing the resource.
+2024-11-28 17:08:19.527 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-4 finished accessing the resource.
+2024-11-28 19:12:46.478 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - ResourceManager initialized.
+2024-11-28 19:12:46.484 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-1 is accessing the resource.
+2024-11-28 19:12:47.486 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-1 finished accessing the resource.
+2024-11-28 19:12:47.486 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread-3 is accessing the resource.
+2024-11-28 19:12:48.488 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread-3 finished accessing the resource.
+2024-11-28 19:12:48.488 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-2 is accessing the resource.
+2024-11-28 19:12:49.491 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-2 finished accessing the resource.
+2024-11-28 19:12:49.491 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-4 is accessing the resource.
+2024-11-28 19:12:50.493 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-4 finished accessing the resource.
+2024-11-28 19:12:50.493 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread-5 is accessing the resource.
+2024-11-28 19:12:51.495 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread-5 finished accessing the resource.
+2024-11-28 19:21:57.112 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - ResourceManager initialized.
+2024-11-28 19:21:57.115 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-2 is accessing the resource.
+2024-11-28 19:21:58.130 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-2 finished accessing the resource.
+2024-11-28 19:21:58.130 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread-3 is accessing the resource.
+2024-11-28 19:21:59.125 [pool-1-thread-1] WARN  org.example.resource.ResourceManager - Thread-1 could not acquire the lock.
+2024-11-28 19:21:59.141 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread-3 finished accessing the resource.
+2024-11-28 19:21:59.141 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-4 is accessing the resource.
+2024-11-28 19:22:00.147 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-4 finished accessing the resource.
+2024-11-28 19:22:00.147 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-5 is accessing the resource.
+2024-11-28 19:22:01.159 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-5 finished accessing the resource.
+2024-11-28 19:30:39.107 [pool-1-thread-1] ERROR org.example.resource.ResourceManager - Error loading resources: resources.txt (The system cannot find the file specified)
+2024-11-28 19:30:39.111 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-1 is accessing the resource. State changed to: Busy.
+2024-11-28 19:30:40.112 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-1 finished accessing the resource.
+2024-11-28 19:30:40.112 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 19:30:40.112 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-2 is accessing the resource. State changed to: Busy.
+2024-11-28 19:30:41.114 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-2 finished accessing the resource.
+2024-11-28 19:30:41.114 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 19:30:41.114 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-4 is accessing the resource. State changed to: Busy.
+2024-11-28 19:30:41.114 [pool-1-thread-3] WARN  org.example.resource.ResourceManager - Thread-3 could not acquire the lock.
+2024-11-28 19:30:42.129 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-4 finished accessing the resource.
+2024-11-28 19:30:42.129 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 19:30:42.129 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-5 is accessing the resource. State changed to: Busy.
+2024-11-28 19:30:43.131 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-5 finished accessing the resource.
+2024-11-28 19:30:43.131 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 19:41:08.386 [pool-1-thread-1] ERROR org.example.resource.ResourceManager - Error loading resources: resources.txt (The system cannot find the file specified)
+2024-11-28 19:41:08.390 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-1 is accessing the resource. State changed to: Busy.
+2024-11-28 19:41:09.394 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-1 finished accessing the resource.
+2024-11-28 19:41:09.394 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 19:41:09.394 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-2 is accessing the resource. State changed to: Busy.
+2024-11-28 19:41:10.403 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-2 finished accessing the resource.
+2024-11-28 19:41:10.403 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 19:41:10.403 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-4 is accessing the resource. State changed to: Busy.
+2024-11-28 19:41:10.403 [pool-1-thread-3] WARN  org.example.resource.ResourceManager - Thread-3 could not acquire the lock.
+2024-11-28 19:41:11.405 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-4 finished accessing the resource.
+2024-11-28 19:41:11.405 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 19:41:11.405 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-5 is accessing the resource. State changed to: Busy.
+2024-11-28 19:41:12.411 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-5 finished accessing the resource.
+2024-11-28 19:41:12.411 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 20:18:58.792 [pool-1-thread-1] ERROR org.example.resource.ResourceManager - Error loading resources: resources.txt (The system cannot find the file specified)
+2024-11-28 20:18:58.798 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-1 is accessing the resource. State changed to: Busy.
+2024-11-28 20:18:59.800 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-1 finished accessing the resource.
+2024-11-28 20:18:59.800 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 20:18:59.800 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-2 is accessing the resource. State changed to: Busy.
+2024-11-28 20:19:00.805 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-2 finished accessing the resource.
+2024-11-28 20:19:00.805 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 20:19:00.805 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-4 is accessing the resource. State changed to: Busy.
+2024-11-28 20:19:00.805 [pool-1-thread-3] WARN  org.example.resource.ResourceManager - Thread-3 could not acquire the lock.
+2024-11-28 20:19:01.816 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread-4 finished accessing the resource.
+2024-11-28 20:19:01.816 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-5 is accessing the resource. State changed to: Busy.
+2024-11-28 20:19:01.816 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 20:19:02.823 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-5 finished accessing the resource.
+2024-11-28 20:19:02.823 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 20:20:16.261 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Loaded resources: [Resource1, Resource2, Resource3]
+2024-11-28 20:20:16.264 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread-3 is accessing the resource. State changed to: Busy.
+2024-11-28 20:20:17.270 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread-3 finished accessing the resource.
+2024-11-28 20:20:17.270 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 20:20:17.270 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-2 is accessing the resource. State changed to: Busy.
+2024-11-28 20:20:18.279 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-2 finished accessing the resource.
+2024-11-28 20:20:18.279 [pool-1-thread-1] WARN  org.example.resource.ResourceManager - Thread-1 could not acquire the lock.
+2024-11-28 20:20:18.279 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 20:20:18.279 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread-4 is accessing the resource. State changed to: Busy.
+2024-11-28 20:20:19.285 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread-4 finished accessing the resource.
+2024-11-28 20:20:19.285 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 20:20:19.285 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-5 is accessing the resource. State changed to: Busy.
+2024-11-28 20:20:20.292 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread-5 finished accessing the resource.
+2024-11-28 20:20:20.292 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 21:42:45.515 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Loaded resources: [Resource1, Resource2, Resource3]
+2024-11-28 21:42:45.519 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread 2 is accessing the resource. State changed to: Busy.
+2024-11-28 21:42:46.520 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread 2 finished accessing the resource.
+2024-11-28 21:42:46.520 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 21:42:46.520 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread 3 is accessing the resource. State changed to: Busy.
+2024-11-28 21:42:47.524 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread 3 finished accessing the resource.
+2024-11-28 21:42:47.524 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 21:42:47.524 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread 1 is accessing the resource. State changed to: Busy.
+2024-11-28 21:42:48.528 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread 1 finished accessing the resource.
+2024-11-28 21:42:48.528 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 21:42:48.528 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread 5 is accessing the resource. State changed to: Busy.
+2024-11-28 21:42:49.535 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread 5 finished accessing the resource.
+2024-11-28 21:42:49.535 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 21:42:49.535 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread 4 is accessing the resource. State changed to: Busy.
+2024-11-28 21:42:50.541 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - Thread 4 finished accessing the resource.
+2024-11-28 21:42:50.541 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 21:49:09.285 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Loaded resources: [Resource1, Resource2, Resource3]
+2024-11-28 21:49:09.288 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread 1 is using resource: Resource1. State changed to: Busy.
+2024-11-28 21:49:10.304 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - Thread 1 finished using resource: Resource1
+2024-11-28 21:49:10.304 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 21:49:10.304 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread 3 is using resource: Resource2. State changed to: Busy.
+2024-11-28 21:49:11.309 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread 3 finished using resource: Resource2
+2024-11-28 21:49:11.309 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 21:49:11.309 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread 5 is using resource: Resource3. State changed to: Busy.
+2024-11-28 21:49:12.317 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - Thread 5 finished using resource: Resource3
+2024-11-28 21:49:12.317 [pool-1-thread-3] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 21:49:12.317 [pool-1-thread-2] WARN  org.example.resource.ResourceManager - Thread 2 could not access any resource. No resources available.
+2024-11-28 21:49:12.317 [pool-1-thread-2] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2024-11-28 21:49:12.318 [pool-1-thread-1] WARN  org.example.resource.ResourceManager - Thread 4 could not access any resource. No resources available.
+2024-11-28 21:49:12.318 [pool-1-thread-1] INFO  org.example.resource.ResourceManager - State changed to: Idle.
+2025-01-28 21:55:49.217 [main] ERROR org.example.resource.ResourceManager - Failed to initialize trucks from file
+java.io.FileNotFoundException: trucks.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.base/java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at org.example.resource.ResourceManager.initializeTrucks(ResourceManager.java:34) [classes/:?]
+	at org.example.resource.ResourceManager.<init>(ResourceManager.java:23) [classes/:?]
+	at org.example.resource.ResourceManager.getInstance(ResourceManager.java:28) [classes/:?]
+	at org.example.main.Main.main(Main.java:16) [classes/:?]
+2025-01-28 21:55:49.237 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 is waiting for a truck...
+2025-01-28 21:55:49.238 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 is waiting for a truck...
+2025-01-28 21:55:49.239 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 is waiting for a truck...
+2025-01-28 21:55:49.239 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 is waiting for a truck...
+2025-01-28 21:55:49.240 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 is waiting for a truck...
+2025-01-28 21:55:49.240 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 is waiting for a truck...
+2025-01-28 21:55:49.241 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 is waiting for a truck...
+2025-01-28 21:55:49.241 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 is waiting for a truck...
+2025-01-28 21:55:49.242 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 is waiting for a truck...
+2025-01-28 21:55:49.242 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 is waiting for a truck...
+2025-01-28 21:56:54.743 [main] ERROR org.example.resource.ResourceManager - Failed to initialize trucks from file
+java.io.FileNotFoundException: resources\trucks.txt (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.base/java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at org.example.resource.ResourceManager.initializeTrucks(ResourceManager.java:34) [classes/:?]
+	at org.example.resource.ResourceManager.<init>(ResourceManager.java:23) [classes/:?]
+	at org.example.resource.ResourceManager.getInstance(ResourceManager.java:28) [classes/:?]
+	at org.example.main.Main.main(Main.java:16) [classes/:?]
+2025-01-28 21:56:54.766 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 is waiting for a truck...
+2025-01-28 21:56:54.766 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 is waiting for a truck...
+2025-01-28 21:56:54.767 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 is waiting for a truck...
+2025-01-28 21:56:54.767 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 is waiting for a truck...
+2025-01-28 21:56:54.768 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 is waiting for a truck...
+2025-01-28 21:56:54.768 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 is waiting for a truck...
+2025-01-28 21:56:54.769 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 is waiting for a truck...
+2025-01-28 21:56:54.769 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 is waiting for a truck...
+2025-01-28 21:56:54.769 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 is waiting for a truck...
+2025-01-28 21:56:54.770 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 is waiting for a truck...
+2025-01-28 21:57:15.299 [main] ERROR org.example.resource.ResourceManager - Failed to initialize trucks from file
+java.io.FileNotFoundException: src\main\java\resources\trucks.txt (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.base/java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at org.example.resource.ResourceManager.initializeTrucks(ResourceManager.java:34) [classes/:?]
+	at org.example.resource.ResourceManager.<init>(ResourceManager.java:23) [classes/:?]
+	at org.example.resource.ResourceManager.getInstance(ResourceManager.java:28) [classes/:?]
+	at org.example.main.Main.main(Main.java:16) [classes/:?]
+2025-01-28 21:57:15.320 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 is waiting for a truck...
+2025-01-28 21:57:15.320 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 is waiting for a truck...
+2025-01-28 21:57:15.321 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 is waiting for a truck...
+2025-01-28 21:57:15.322 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 is waiting for a truck...
+2025-01-28 21:57:15.322 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 is waiting for a truck...
+2025-01-28 21:57:15.323 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 is waiting for a truck...
+2025-01-28 21:57:15.323 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 is waiting for a truck...
+2025-01-28 21:57:15.324 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 is waiting for a truck...
+2025-01-28 21:57:15.325 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 is waiting for a truck...
+2025-01-28 21:57:15.325 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 is waiting for a truck...
+2025-01-28 21:57:47.855 [main] INFO  org.example.resource.ResourceManager - Successfully initialized trucks from file.
+2025-01-28 21:57:47.865 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 acquired Truck-1
+2025-01-28 21:57:47.865 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 acquired Truck-2
+2025-01-28 21:57:47.866 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 acquired Truck-3
+2025-01-28 21:57:47.866 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 acquired Truck-4
+2025-01-28 21:57:47.867 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 acquired Truck-5
+2025-01-28 21:57:47.867 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 is waiting for a truck...
+2025-01-28 21:57:47.868 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 is waiting for a truck...
+2025-01-28 21:57:47.868 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 is waiting for a truck...
+2025-01-28 21:57:47.869 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 is waiting for a truck...
+2025-01-28 21:57:47.869 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 is waiting for a truck...
+2025-01-28 21:57:48.870 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 released Truck-3
+2025-01-28 21:57:48.870 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 released Truck-4
+2025-01-28 21:57:48.871 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 released Truck-1
+2025-01-28 21:57:48.871 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 released Truck-2
+2025-01-28 21:57:48.871 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 released Truck-5
+2025-01-28 21:57:48.871 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 acquired Truck-3
+2025-01-28 21:57:48.872 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 acquired Truck-4
+2025-01-28 21:57:48.872 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 acquired Truck-1
+2025-01-28 21:57:48.872 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 acquired Truck-2
+2025-01-28 21:57:48.872 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 acquired Truck-5
+2025-01-28 21:57:49.878 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 released Truck-3
+2025-01-28 21:57:49.878 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 released Truck-4
+2025-01-28 21:57:49.878 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 released Truck-1
+2025-01-28 21:57:49.878 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 released Truck-5
+2025-01-28 21:57:49.878 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 released Truck-2
+2025-01-28 22:03:28.528 [main] INFO  org.example.resource.ResourceManager - Successfully initialized trucks from file.
+2025-01-28 22:03:28.538 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 acquired Truck-1
+2025-01-28 22:03:28.539 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 acquired Truck-2
+2025-01-28 22:03:28.539 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 acquired Truck-3
+2025-01-28 22:03:28.540 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 acquired Truck-4
+2025-01-28 22:03:28.541 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 acquired Truck-5
+2025-01-28 22:03:28.541 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 is waiting for a truck...
+2025-01-28 22:03:28.542 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 is waiting for a truck...
+2025-01-28 22:03:28.542 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 is waiting for a truck...
+2025-01-28 22:03:28.543 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 is waiting for a truck...
+2025-01-28 22:03:28.543 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 is waiting for a truck...
+2025-01-28 22:03:29.553 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 released Truck-3
+2025-01-28 22:03:29.553 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 released Truck-1
+2025-01-28 22:03:29.553 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 released Truck-5
+2025-01-28 22:03:29.554 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 released Truck-2
+2025-01-28 22:03:29.554 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 released Truck-4
+2025-01-28 22:03:29.554 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 acquired Truck-3
+2025-01-28 22:03:29.554 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 acquired Truck-1
+2025-01-28 22:03:29.554 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 acquired Truck-5
+2025-01-28 22:03:29.554 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 acquired Truck-2
+2025-01-28 22:03:29.555 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 acquired Truck-4
+2025-01-28 22:03:30.561 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 released Truck-5
+2025-01-28 22:03:30.561 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 released Truck-3
+2025-01-28 22:03:30.561 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 released Truck-2
+2025-01-28 22:03:30.561 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 released Truck-1
+2025-01-28 22:03:30.562 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 released Truck-4
+2025-01-28 22:07:40.038 [main] INFO  org.example.resource.ResourceManager - Successfully initialized trucks from file.
+2025-01-28 22:07:40.049 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 acquired Truck-1
+2025-01-28 22:07:40.050 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 acquired Truck-2
+2025-01-28 22:07:40.051 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 acquired Truck-3
+2025-01-28 22:07:40.051 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 acquired Truck-4
+2025-01-28 22:07:40.052 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 acquired Truck-5
+2025-01-28 22:07:40.053 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 is waiting for a truck...
+2025-01-28 22:07:40.053 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 is waiting for a truck...
+2025-01-28 22:07:40.054 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 is waiting for a truck...
+2025-01-28 22:07:40.054 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 is waiting for a truck...
+2025-01-28 22:07:40.055 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 is waiting for a truck...
+2025-01-28 22:07:40.060 [pool-2-thread-2] INFO  org.example.resource.Truck - Truck-2 is loading cargo: Cargo for Worker-2
+2025-01-28 22:07:40.060 [pool-2-thread-4] INFO  org.example.resource.Truck - Truck-3 is loading cargo: Cargo for Worker-4
+2025-01-28 22:07:40.060 [pool-2-thread-5] INFO  org.example.resource.Truck - Truck-4 is loading cargo: Cargo for Worker-5
+2025-01-28 22:07:40.060 [pool-2-thread-1] INFO  org.example.resource.Truck - Truck-1 is loading cargo: Cargo for Worker-1
+2025-01-28 22:07:40.060 [pool-2-thread-7] INFO  org.example.resource.Truck - Truck-5 is loading cargo: Cargo for Worker-7
+2025-01-28 22:07:41.062 [pool-2-thread-4] INFO  org.example.resource.Truck - Truck-3 is unloading cargo.
+2025-01-28 22:07:41.062 [pool-2-thread-2] INFO  org.example.resource.Truck - Truck-2 is unloading cargo.
+2025-01-28 22:07:41.062 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 released Truck-3
+2025-01-28 22:07:41.062 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 released Truck-2
+2025-01-28 22:07:41.062 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 acquired Truck-3
+2025-01-28 22:07:41.062 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 acquired Truck-2
+2025-01-28 22:07:41.062 [pool-2-thread-8] INFO  org.example.resource.Truck - Truck-3 is loading cargo: Cargo for Worker-8
+2025-01-28 22:07:41.063 [pool-2-thread-9] INFO  org.example.resource.Truck - Truck-2 is loading cargo: Cargo for Worker-9
+2025-01-28 22:07:41.064 [pool-2-thread-7] INFO  org.example.resource.Truck - Truck-5 is unloading cargo.
+2025-01-28 22:07:41.064 [pool-2-thread-1] INFO  org.example.resource.Truck - Truck-1 is unloading cargo.
+2025-01-28 22:07:41.064 [pool-2-thread-5] INFO  org.example.resource.Truck - Truck-4 is unloading cargo.
+2025-01-28 22:07:41.064 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 released Truck-5
+2025-01-28 22:07:41.064 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 released Truck-1
+2025-01-28 22:07:41.064 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 released Truck-4
+2025-01-28 22:07:41.064 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 acquired Truck-5
+2025-01-28 22:07:41.064 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 acquired Truck-1
+2025-01-28 22:07:41.064 [pool-2-thread-3] INFO  org.example.resource.Truck - Truck-5 is loading cargo: Cargo for Worker-3
+2025-01-28 22:07:41.065 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 acquired Truck-4
+2025-01-28 22:07:41.065 [pool-2-thread-6] INFO  org.example.resource.Truck - Truck-1 is loading cargo: Cargo for Worker-6
+2025-01-28 22:07:41.065 [pool-2-thread-10] INFO  org.example.resource.Truck - Truck-4 is loading cargo: Cargo for Worker-10
+2025-01-28 22:07:42.068 [pool-2-thread-6] INFO  org.example.resource.Truck - Truck-1 is unloading cargo.
+2025-01-28 22:07:42.068 [pool-2-thread-3] INFO  org.example.resource.Truck - Truck-5 is unloading cargo.
+2025-01-28 22:07:42.068 [pool-2-thread-8] INFO  org.example.resource.Truck - Truck-3 is unloading cargo.
+2025-01-28 22:07:42.068 [pool-2-thread-9] INFO  org.example.resource.Truck - Truck-2 is unloading cargo.
+2025-01-28 22:07:42.068 [pool-2-thread-10] INFO  org.example.resource.Truck - Truck-4 is unloading cargo.
+2025-01-28 22:07:42.068 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 released Truck-1
+2025-01-28 22:07:42.068 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 released Truck-3
+2025-01-28 22:07:42.068 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 released Truck-2
+2025-01-28 22:07:42.068 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 released Truck-4
+2025-01-28 22:07:42.069 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 released Truck-5
+2025-01-28 22:08:00.088 [main] INFO  org.example.resource.ResourceManager - Successfully initialized trucks from file.
+2025-01-28 22:08:00.098 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 acquired Truck1
+2025-01-28 22:08:00.103 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 acquired Truck2
+2025-01-28 22:08:00.104 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 acquired Truck3
+2025-01-28 22:08:00.105 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 acquired Truck4
+2025-01-28 22:08:00.106 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 acquired Truck5
+2025-01-28 22:08:00.107 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 is waiting for a truck...
+2025-01-28 22:08:00.108 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 is waiting for a truck...
+2025-01-28 22:08:00.108 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 is waiting for a truck...
+2025-01-28 22:08:00.110 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 is waiting for a truck...
+2025-01-28 22:08:00.110 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 is waiting for a truck...
+2025-01-28 22:08:00.118 [pool-2-thread-10] INFO  org.example.resource.Truck - Truck5 is loading cargo: Cargo for Worker-10
+2025-01-28 22:08:00.118 [pool-2-thread-3] INFO  org.example.resource.Truck - Truck4 is loading cargo: Cargo for Worker-3
+2025-01-28 22:08:00.118 [pool-2-thread-2] INFO  org.example.resource.Truck - Truck2 is loading cargo: Cargo for Worker-2
+2025-01-28 22:08:00.118 [pool-2-thread-4] INFO  org.example.resource.Truck - Truck3 is loading cargo: Cargo for Worker-4
+2025-01-28 22:08:00.118 [pool-2-thread-1] INFO  org.example.resource.Truck - Truck1 is loading cargo: Cargo for Worker-1
+2025-01-28 22:08:01.124 [pool-2-thread-2] INFO  org.example.resource.Truck - Truck2 is unloading cargo.
+2025-01-28 22:08:01.124 [pool-2-thread-10] INFO  org.example.resource.Truck - Truck5 is unloading cargo.
+2025-01-28 22:08:01.124 [pool-2-thread-4] INFO  org.example.resource.Truck - Truck3 is unloading cargo.
+2025-01-28 22:08:01.124 [pool-2-thread-1] INFO  org.example.resource.Truck - Truck1 is unloading cargo.
+2025-01-28 22:08:01.124 [pool-2-thread-3] INFO  org.example.resource.Truck - Truck4 is unloading cargo.
+2025-01-28 22:08:01.124 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 released Truck2
+2025-01-28 22:08:01.124 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 released Truck5
+2025-01-28 22:08:01.124 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 released Truck3
+2025-01-28 22:08:01.125 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 released Truck1
+2025-01-28 22:08:01.125 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 released Truck4
+2025-01-28 22:08:01.125 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 acquired Truck2
+2025-01-28 22:08:01.125 [pool-2-thread-5] INFO  org.example.resource.Truck - Truck2 is loading cargo: Cargo for Worker-5
+2025-01-28 22:08:01.125 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 acquired Truck5
+2025-01-28 22:08:01.125 [pool-2-thread-7] INFO  org.example.resource.Truck - Truck5 is loading cargo: Cargo for Worker-7
+2025-01-28 22:08:01.125 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 acquired Truck3
+2025-01-28 22:08:01.126 [pool-2-thread-8] INFO  org.example.resource.Truck - Truck3 is loading cargo: Cargo for Worker-8
+2025-01-28 22:08:01.126 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 acquired Truck1
+2025-01-28 22:08:01.126 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 acquired Truck4
+2025-01-28 22:08:01.126 [pool-2-thread-9] INFO  org.example.resource.Truck - Truck1 is loading cargo: Cargo for Worker-9
+2025-01-28 22:08:01.126 [pool-2-thread-6] INFO  org.example.resource.Truck - Truck4 is loading cargo: Cargo for Worker-6
+2025-01-28 22:08:02.128 [pool-2-thread-8] INFO  org.example.resource.Truck - Truck3 is unloading cargo.
+2025-01-28 22:08:02.128 [pool-2-thread-6] INFO  org.example.resource.Truck - Truck4 is unloading cargo.
+2025-01-28 22:08:02.128 [pool-2-thread-7] INFO  org.example.resource.Truck - Truck5 is unloading cargo.
+2025-01-28 22:08:02.128 [pool-2-thread-5] INFO  org.example.resource.Truck - Truck2 is unloading cargo.
+2025-01-28 22:08:02.128 [pool-2-thread-9] INFO  org.example.resource.Truck - Truck1 is unloading cargo.
+2025-01-28 22:08:02.128 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 released Truck3
+2025-01-28 22:08:02.128 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 released Truck4
+2025-01-28 22:08:02.128 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 released Truck2
+2025-01-28 22:08:02.128 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 released Truck5
+2025-01-28 22:08:02.128 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 released Truck1
+2025-01-28 22:09:26.196 [main] INFO  org.example.resource.ResourceManager - Successfully initialized trucks from file.
+2025-01-28 22:09:26.209 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 acquired Truck1
+2025-01-28 22:09:26.210 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 acquired Truck2
+2025-01-28 22:09:26.210 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 acquired Truck3
+2025-01-28 22:09:26.211 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 acquired Truck4
+2025-01-28 22:09:26.212 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 acquired Truck5
+2025-01-28 22:09:26.213 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 is waiting for a truck...
+2025-01-28 22:09:26.214 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 is waiting for a truck...
+2025-01-28 22:09:26.215 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 is waiting for a truck...
+2025-01-28 22:09:26.216 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 is waiting for a truck...
+2025-01-28 22:09:26.216 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 is waiting for a truck...
+2025-01-28 22:09:26.223 [pool-2-thread-3] INFO  org.example.resource.Truck - Truck2 is loading cargo: Cargo for Worker3
+2025-01-28 22:09:26.223 [pool-2-thread-6] INFO  org.example.resource.Truck - Truck5 is loading cargo: Cargo for Worker6
+2025-01-28 22:09:26.223 [pool-2-thread-2] INFO  org.example.resource.Truck - Truck1 is loading cargo: Cargo for Worker2
+2025-01-28 22:09:26.223 [pool-2-thread-1] INFO  org.example.resource.Truck - Truck3 is loading cargo: Cargo for Worker1
+2025-01-28 22:09:26.223 [pool-2-thread-4] INFO  org.example.resource.Truck - Truck4 is loading cargo: Cargo for Worker4
+2025-01-28 22:09:27.236 [pool-2-thread-1] INFO  org.example.resource.Truck - Truck3 is unloading cargo.
+2025-01-28 22:09:27.236 [pool-2-thread-2] INFO  org.example.resource.Truck - Truck1 is unloading cargo.
+2025-01-28 22:09:27.236 [pool-2-thread-6] INFO  org.example.resource.Truck - Truck5 is unloading cargo.
+2025-01-28 22:09:27.236 [pool-2-thread-4] INFO  org.example.resource.Truck - Truck4 is unloading cargo.
+2025-01-28 22:09:27.236 [pool-2-thread-3] INFO  org.example.resource.Truck - Truck2 is unloading cargo.
+2025-01-28 22:09:27.236 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 released Truck3
+2025-01-28 22:09:27.236 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 released Truck1
+2025-01-28 22:09:27.236 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 released Truck5
+2025-01-28 22:09:27.237 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 released Truck4
+2025-01-28 22:09:27.237 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 released Truck2
+2025-01-28 22:09:27.237 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 acquired Truck3
+2025-01-28 22:09:27.237 [pool-2-thread-7] INFO  org.example.resource.Truck - Truck3 is loading cargo: Cargo for Worker7
+2025-01-28 22:09:27.237 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 acquired Truck1
+2025-01-28 22:09:27.237 [pool-2-thread-5] INFO  org.example.resource.Truck - Truck1 is loading cargo: Cargo for Worker5
+2025-01-28 22:09:27.237 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 acquired Truck5
+2025-01-28 22:09:27.237 [pool-2-thread-8] INFO  org.example.resource.Truck - Truck5 is loading cargo: Cargo for Worker8
+2025-01-28 22:09:27.237 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 acquired Truck4
+2025-01-28 22:09:27.238 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 acquired Truck2
+2025-01-28 22:09:27.238 [pool-2-thread-9] INFO  org.example.resource.Truck - Truck4 is loading cargo: Cargo for Worker9
+2025-01-28 22:09:27.238 [pool-2-thread-10] INFO  org.example.resource.Truck - Truck2 is loading cargo: Cargo for Worker10
+2025-01-28 22:09:28.241 [pool-2-thread-9] INFO  org.example.resource.Truck - Truck4 is unloading cargo.
+2025-01-28 22:09:28.241 [pool-2-thread-7] INFO  org.example.resource.Truck - Truck3 is unloading cargo.
+2025-01-28 22:09:28.241 [pool-2-thread-10] INFO  org.example.resource.Truck - Truck2 is unloading cargo.
+2025-01-28 22:09:28.241 [pool-2-thread-8] INFO  org.example.resource.Truck - Truck5 is unloading cargo.
+2025-01-28 22:09:28.241 [pool-2-thread-5] INFO  org.example.resource.Truck - Truck1 is unloading cargo.
+2025-01-28 22:09:28.241 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 released Truck4
+2025-01-28 22:09:28.241 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 released Truck1
+2025-01-28 22:09:28.241 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 released Truck3
+2025-01-28 22:09:28.241 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 released Truck2
+2025-01-28 22:09:28.242 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 released Truck5
+2025-01-28 22:29:00.999 [main] INFO  org.example.resource.ResourceManager - Successfully initialized trucks from file.
+2025-01-28 22:29:01.009 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 acquired Truck1
+2025-01-28 22:29:01.009 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 acquired Truck2
+2025-01-28 22:29:01.010 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 acquired Truck3
+2025-01-28 22:29:01.010 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 acquired Truck4
+2025-01-28 22:29:01.011 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 acquired Truck5
+2025-01-28 22:29:01.011 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 is waiting for a truck...
+2025-01-28 22:29:01.012 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 is waiting for a truck...
+2025-01-28 22:29:01.012 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 is waiting for a truck...
+2025-01-28 22:29:01.013 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 is waiting for a truck...
+2025-01-28 22:29:01.013 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 is waiting for a truck...
+2025-01-28 22:29:01.019 [pool-2-thread-3] INFO  org.example.resource.Truck - Truck3 is loading cargo: Cargo for Worker3
+2025-01-28 22:29:01.019 [pool-2-thread-5] INFO  org.example.resource.Truck - Truck5 is loading cargo: Cargo for Worker5
+2025-01-28 22:29:01.019 [pool-2-thread-4] INFO  org.example.resource.Truck - Truck4 is loading cargo: Cargo for Worker4
+2025-01-28 22:29:01.019 [pool-2-thread-2] INFO  org.example.resource.Truck - Truck2 is loading cargo: Cargo for Worker2
+2025-01-28 22:29:01.019 [pool-2-thread-1] INFO  org.example.resource.Truck - Truck1 is loading cargo: Cargo for Worker1
+2025-01-28 22:29:07.037 [pool-2-thread-5] INFO  org.example.resource.Truck - Truck5 is unloading cargo.
+2025-01-28 22:29:07.037 [pool-2-thread-4] INFO  org.example.resource.Truck - Truck4 is unloading cargo.
+2025-01-28 22:29:07.037 [pool-2-thread-2] INFO  org.example.resource.Truck - Truck2 is unloading cargo.
+2025-01-28 22:29:07.037 [pool-2-thread-3] INFO  org.example.resource.Truck - Truck3 is unloading cargo.
+2025-01-28 22:29:07.037 [pool-2-thread-1] INFO  org.example.resource.Truck - Truck1 is unloading cargo.
+2025-01-28 22:29:10.041 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 released Truck4
+2025-01-28 22:29:10.041 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 released Truck3
+2025-01-28 22:29:10.041 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 released Truck2
+2025-01-28 22:29:10.041 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 released Truck1
+2025-01-28 22:29:10.041 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 released Truck5
+2025-01-28 22:29:10.041 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 acquired Truck4
+2025-01-28 22:29:10.041 [pool-2-thread-7] INFO  org.example.resource.Truck - Truck4 is loading cargo: Cargo for Worker7
+2025-01-28 22:29:10.041 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 acquired Truck3
+2025-01-28 22:29:10.041 [pool-2-thread-6] INFO  org.example.resource.Truck - Truck3 is loading cargo: Cargo for Worker6
+2025-01-28 22:29:10.041 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 acquired Truck2
+2025-01-28 22:29:10.042 [pool-2-thread-8] INFO  org.example.resource.Truck - Truck2 is loading cargo: Cargo for Worker8
+2025-01-28 22:29:10.042 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 acquired Truck1
+2025-01-28 22:29:10.042 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 acquired Truck5
+2025-01-28 22:29:10.042 [pool-2-thread-9] INFO  org.example.resource.Truck - Truck1 is loading cargo: Cargo for Worker9
+2025-01-28 22:29:10.042 [pool-2-thread-10] INFO  org.example.resource.Truck - Truck5 is loading cargo: Cargo for Worker10
+2025-01-28 22:29:16.054 [pool-2-thread-6] INFO  org.example.resource.Truck - Truck3 is unloading cargo.
+2025-01-28 22:29:16.054 [pool-2-thread-7] INFO  org.example.resource.Truck - Truck4 is unloading cargo.
+2025-01-28 22:29:16.068 [pool-2-thread-10] INFO  org.example.resource.Truck - Truck5 is unloading cargo.
+2025-01-28 22:29:16.068 [pool-2-thread-9] INFO  org.example.resource.Truck - Truck1 is unloading cargo.
+2025-01-28 22:29:16.068 [pool-2-thread-8] INFO  org.example.resource.Truck - Truck2 is unloading cargo.
+2025-01-28 22:29:19.067 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 released Truck4
+2025-01-28 22:29:19.067 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 released Truck3
+2025-01-28 22:29:19.082 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 released Truck2
+2025-01-28 22:29:19.082 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 released Truck5
+2025-01-28 22:29:19.082 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 released Truck1
+2025-01-28 22:36:43.030 [main] INFO  org.example.reader.TruckFileReader - Successfully read truck names from file: src/main/resources/trucks.txt
+2025-01-28 22:36:43.037 [main] INFO  org.example.resource.ResourceManager - Successfully initialized 5 trucks.
+2025-01-28 22:36:43.046 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 acquired Truck1
+2025-01-28 22:36:43.047 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 acquired Truck2
+2025-01-28 22:36:43.047 [pool-2-thread-1] INFO  org.example.resource.Truck - Truck1 is loading cargo: Cargo for Worker1
+2025-01-28 22:36:43.048 [pool-2-thread-2] INFO  org.example.resource.Truck - Truck2 is loading cargo: Cargo for Worker2
+2025-01-28 22:36:43.048 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 acquired Truck3
+2025-01-28 22:36:43.049 [pool-2-thread-3] INFO  org.example.resource.Truck - Truck3 is loading cargo: Cargo for Worker3
+2025-01-28 22:36:43.049 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 acquired Truck4
+2025-01-28 22:36:43.049 [pool-2-thread-4] INFO  org.example.resource.Truck - Truck4 is loading cargo: Cargo for Worker4
+2025-01-28 22:36:43.049 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 acquired Truck5
+2025-01-28 22:36:43.050 [pool-2-thread-6] INFO  org.example.resource.Truck - Truck5 is loading cargo: Cargo for Worker6
+2025-01-28 22:36:43.050 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 is waiting for a truck...
+2025-01-28 22:36:43.050 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 is waiting for a truck...
+2025-01-28 22:36:43.051 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 is waiting for a truck...
+2025-01-28 22:36:43.051 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 is waiting for a truck...
+2025-01-28 22:36:43.052 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 is waiting for a truck...
+2025-01-28 22:36:49.057 [pool-2-thread-3] INFO  org.example.resource.Truck - Truck3 is unloading cargo.
+2025-01-28 22:36:49.057 [pool-2-thread-2] INFO  org.example.resource.Truck - Truck2 is unloading cargo.
+2025-01-28 22:36:49.057 [pool-2-thread-1] INFO  org.example.resource.Truck - Truck1 is unloading cargo.
+2025-01-28 22:36:49.057 [pool-2-thread-4] INFO  org.example.resource.Truck - Truck4 is unloading cargo.
+2025-01-28 22:36:49.057 [pool-2-thread-6] INFO  org.example.resource.Truck - Truck5 is unloading cargo.
+2025-01-28 22:36:52.061 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 released Truck5
+2025-01-28 22:36:52.061 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 released Truck3
+2025-01-28 22:36:52.061 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 released Truck2
+2025-01-28 22:36:52.062 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 released Truck1
+2025-01-28 22:36:52.062 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 released Truck4
+2025-01-28 22:36:52.062 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 acquired Truck5
+2025-01-28 22:36:52.062 [pool-2-thread-7] INFO  org.example.resource.Truck - Truck5 is loading cargo: Cargo for Worker7
+2025-01-28 22:36:52.062 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 acquired Truck3
+2025-01-28 22:36:52.062 [pool-2-thread-5] INFO  org.example.resource.Truck - Truck3 is loading cargo: Cargo for Worker5
+2025-01-28 22:36:52.062 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 acquired Truck2
+2025-01-28 22:36:52.062 [pool-2-thread-10] INFO  org.example.resource.Truck - Truck2 is loading cargo: Cargo for Worker10
+2025-01-28 22:36:52.062 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 acquired Truck1
+2025-01-28 22:36:52.063 [pool-2-thread-8] INFO  org.example.resource.Truck - Truck1 is loading cargo: Cargo for Worker8
+2025-01-28 22:36:52.063 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 acquired Truck4
+2025-01-28 22:36:52.063 [pool-2-thread-9] INFO  org.example.resource.Truck - Truck4 is loading cargo: Cargo for Worker9
+2025-01-28 22:36:58.083 [pool-2-thread-10] INFO  org.example.resource.Truck - Truck2 is unloading cargo.
+2025-01-28 22:36:58.083 [pool-2-thread-5] INFO  org.example.resource.Truck - Truck3 is unloading cargo.
+2025-01-28 22:36:58.083 [pool-2-thread-8] INFO  org.example.resource.Truck - Truck1 is unloading cargo.
+2025-01-28 22:36:58.083 [pool-2-thread-7] INFO  org.example.resource.Truck - Truck5 is unloading cargo.
+2025-01-28 22:36:58.083 [pool-2-thread-9] INFO  org.example.resource.Truck - Truck4 is unloading cargo.
+2025-01-28 22:37:01.085 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 released Truck3
+2025-01-28 22:37:01.085 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 released Truck1
+2025-01-28 22:37:01.085 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 released Truck2
+2025-01-28 22:37:01.095 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 released Truck4
+2025-01-28 22:37:01.095 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 released Truck5
+2025-01-28 22:38:33.441 [main] INFO  org.example.reader.TruckFileReader - Successfully read truck names from file: src/main/resources/trucks.txt
+2025-01-28 22:38:33.447 [main] INFO  org.example.resource.ResourceManager - Successfully initialized 5 trucks.
+2025-01-28 22:38:33.457 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 acquired Truck1
+2025-01-28 22:38:33.458 [pool-2-thread-1] INFO  org.example.resource.Truck - Truck1 is loading cargo: Cargo for Worker1
+2025-01-28 22:38:33.458 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 acquired Truck2
+2025-01-28 22:38:33.458 [pool-2-thread-2] INFO  org.example.resource.Truck - Truck2 is loading cargo: Cargo for Worker2
+2025-01-28 22:38:33.458 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 acquired Truck3
+2025-01-28 22:38:33.459 [pool-2-thread-3] INFO  org.example.resource.Truck - Truck3 is loading cargo: Cargo for Worker3
+2025-01-28 22:38:33.459 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 acquired Truck4
+2025-01-28 22:38:33.459 [pool-2-thread-7] INFO  org.example.resource.Truck - Truck4 is loading cargo: Cargo for Worker7
+2025-01-28 22:38:33.459 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 acquired Truck5
+2025-01-28 22:38:33.460 [pool-2-thread-4] INFO  org.example.resource.Truck - Truck5 is loading cargo: Cargo for Worker4
+2025-01-28 22:38:33.460 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 is waiting for a truck...
+2025-01-28 22:38:33.461 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 is waiting for a truck...
+2025-01-28 22:38:33.461 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 is waiting for a truck...
+2025-01-28 22:38:33.462 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 is waiting for a truck...
+2025-01-28 22:38:33.462 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 is waiting for a truck...
+2025-01-28 22:38:39.461 [pool-2-thread-2] INFO  org.example.resource.Truck - Truck2 is unloading cargo.
+2025-01-28 22:38:39.475 [pool-2-thread-4] INFO  org.example.resource.Truck - Truck5 is unloading cargo.
+2025-01-28 22:38:39.475 [pool-2-thread-3] INFO  org.example.resource.Truck - Truck3 is unloading cargo.
+2025-01-28 22:38:39.475 [pool-2-thread-1] INFO  org.example.resource.Truck - Truck1 is unloading cargo.
+2025-01-28 22:38:39.475 [pool-2-thread-7] INFO  org.example.resource.Truck - Truck4 is unloading cargo.
+2025-01-28 22:38:42.476 [pool-2-thread-4] INFO  org.example.resource.ResourceManager - pool-2-thread-4 released Truck5
+2025-01-28 22:38:42.476 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 acquired Truck5
+2025-01-28 22:38:42.476 [pool-2-thread-5] INFO  org.example.resource.Truck - Truck5 is loading cargo: Cargo for Worker5
+2025-01-28 22:38:42.477 [pool-2-thread-2] INFO  org.example.resource.ResourceManager - pool-2-thread-2 released Truck2
+2025-01-28 22:38:42.477 [pool-2-thread-7] INFO  org.example.resource.ResourceManager - pool-2-thread-7 released Truck4
+2025-01-28 22:38:42.477 [pool-2-thread-3] INFO  org.example.resource.ResourceManager - pool-2-thread-3 released Truck3
+2025-01-28 22:38:42.477 [pool-2-thread-1] INFO  org.example.resource.ResourceManager - pool-2-thread-1 released Truck1
+2025-01-28 22:38:42.477 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 acquired Truck2
+2025-01-28 22:38:42.478 [pool-2-thread-8] INFO  org.example.resource.Truck - Truck2 is loading cargo: Cargo for Worker8
+2025-01-28 22:38:42.478 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 acquired Truck4
+2025-01-28 22:38:42.478 [pool-2-thread-9] INFO  org.example.resource.Truck - Truck4 is loading cargo: Cargo for Worker9
+2025-01-28 22:38:42.478 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 acquired Truck3
+2025-01-28 22:38:42.478 [pool-2-thread-10] INFO  org.example.resource.Truck - Truck3 is loading cargo: Cargo for Worker10
+2025-01-28 22:38:42.478 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 acquired Truck1
+2025-01-28 22:38:42.478 [pool-2-thread-6] INFO  org.example.resource.Truck - Truck1 is loading cargo: Cargo for Worker6
+2025-01-28 22:38:48.482 [pool-2-thread-9] INFO  org.example.resource.Truck - Truck4 is unloading cargo.
+2025-01-28 22:38:48.482 [pool-2-thread-5] INFO  org.example.resource.Truck - Truck5 is unloading cargo.
+2025-01-28 22:38:48.482 [pool-2-thread-6] INFO  org.example.resource.Truck - Truck1 is unloading cargo.
+2025-01-28 22:38:48.482 [pool-2-thread-10] INFO  org.example.resource.Truck - Truck3 is unloading cargo.
+2025-01-28 22:38:48.482 [pool-2-thread-8] INFO  org.example.resource.Truck - Truck2 is unloading cargo.
+2025-01-28 22:38:51.486 [pool-2-thread-6] INFO  org.example.resource.ResourceManager - pool-2-thread-6 released Truck1
+2025-01-28 22:38:51.486 [pool-2-thread-10] INFO  org.example.resource.ResourceManager - pool-2-thread-10 released Truck3
+2025-01-28 22:38:51.486 [pool-2-thread-8] INFO  org.example.resource.ResourceManager - pool-2-thread-8 released Truck2
+2025-01-28 22:38:51.486 [pool-2-thread-5] INFO  org.example.resource.ResourceManager - pool-2-thread-5 released Truck5
+2025-01-28 22:38:51.487 [pool-2-thread-9] INFO  org.example.resource.ResourceManager - pool-2-thread-9 released Truck4
